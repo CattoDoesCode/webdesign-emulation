@@ -11,7 +11,6 @@ body {
 }
 
 .header {
-    background: lightgray; 
     grid-area: 1/1/2/4;
     padding: 0px 25% 0px 25%;
 }
@@ -30,15 +29,30 @@ body {
 .icon-attributes {
     font-size: 48px;
     color: #129EF3;
-    padding: 24px;
+    padding: 24px 24px 152px 24px;
 }
 
 .image-container {
-    background: yellow;
+    background: white;
 }
 
-.content {
+.text-content {
     font-family: Helvetica, sans-serif;
     font-weight: 100;
     color: gray;
+}
+
+.text-content-header {
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+}
+
+.padding-left {
+    padding-left: 50%;
+}
+
+.padding-right {
+    padding-right: 50%;
 }
