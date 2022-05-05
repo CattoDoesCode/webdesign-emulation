@@ -12,7 +12,7 @@ body {
 
 .header {
     grid-area: 1/1/2/4;
-    padding: 0px 25% 0px 25%;
+    padding: 26px 25% 0px 25%;
 }
 
 .text-with-icon-container {
