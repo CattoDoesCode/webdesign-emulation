@@ -11,13 +11,26 @@ body {
 }
 
 .header {
-    background: gray;
+    background: lightgray; 
     grid-area: 1/1/2/4;
     padding: 0px 25% 0px 25%;
 }
 
+.text-with-icon-container {
+    background: white;
+    display: grid;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+}
+
 .text-with-icon {
-    background: turquoise;
+    background-color: white;
+    
+}
+
+.icon-attributes {
+    font-size: 48px;
+    color: #129EF3;
+    padding: 24px;
 }
 
 .image-container {
@@ -27,5 +40,5 @@ body {
 .content {
     font-family: Helvetica, sans-serif;
     font-weight: 100;
-    color: white;
+    color: gray;
 }
